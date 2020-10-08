@@ -1,0 +1,56 @@
+body{
+    background-image:linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)) , url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 5% 20%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+#description{
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-weight: 200;
+}
+
+#survey-form{
+    margin-top: 5%;
+    padding: 5%;
+    background: rgba(28, 28, 80, 0.8);
+    border-radius: 10px;
+    text-align: left;
+}
+input:not([type="checkbox"]) {
+    display: block;
+    width: 90%;
+    margin: 0 3% 3%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+input[type="checkbox"], label:not([for="review"]) {
+    padding: 1% 0;
+    margin: 0 3%;
+}
+#survey-form textarea  {
+    display: block;
+    width: 90%;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+select, input[type="submit"]{
+   display: block;
+    width: 92.5%;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5px; 
+}
+
+label[for="review"]{
+    display: block;
+    margin:3%;
+    margin-top: 5%;
+    height: 10%;
+}

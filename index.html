@@ -18,23 +18,26 @@
    far and you should get some practice with plain CSS.
 </p>
 
-<form action="" id="form-survey" >
+<form action="" id="survey-form" >
 
-<label for="name" id="name-label"></label>
-<input type="text" name="name" id="name" placeholder="name...">
+<label for="name" id="name-label">Name</label>
+<input type="text" name="name" id="name" placeholder="name..." required>
 
-<label for="email" id="email-label"></label>
-<input type="email" name="email" id="email" placeholder="email..">
+<label for="email" id="email-label">Email</label>
+<input type="email" name="email" id="email" placeholder="email.." required>
   
 
-<label for="number" id="number-label"></label>
+<label for="number" id="number-label">Number</label>
 <input type="number" name="number" id="number" min="1" max="5" placeholder="number here...">
+
 <select name="selector-tag" id="dropdown">
   <option value="volvo">checkbox</option>
   <option value="saab">Saab</option>
   <option value="mercedes">Mercedes</option>
   <option value="audi">Audi</option>
 </select>
+    
+
 
 <input type="checkbox" id="Bike" name="Bike" value="Bike">
 <label for="Bike"> I have a Bike</label><br>
